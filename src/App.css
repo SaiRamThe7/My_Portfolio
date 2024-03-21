@@ -1,0 +1,93 @@
+/* src/App.css */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('./images/path/your/pexels-felix.jpg'); /* Set the path to your background image */
+  background-size: cover; /* Ensure the background image covers the entire viewport */
+  background-position: center; /* Center the background image */
+  background-color: #3498db; /* Set the background color to blue */
+  color: #3498db; /* Set text color to white for better visibility on a blue background */
+
+}
+/* This App Container is the main thing for full page colour and backgrounds */
+.app-container {
+
+  position: relative;
+
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  margin: 100;
+  padding: 10px;
+  /*background-color: #3498db; /* Set the background color to blue */
+  /*color: #f9f9f9ee; /* Set text color to white for better visibility on a blue background */
+  
+}
+
+/*/.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1; /* Place the video behind other elements 
+}*/
+
+
+.introduction {
+  text-align: center;
+  padding: 20px;
+  background-color: #49e3eb; /* Set introduction background color */
+  border-radius: 10px; /* Add rounded corners */
+  box-shadow: 0 0 10px rgba(250, 211, 211, 0.3); /* Add box shadow for a subtle shadow effect */
+  color: #000000; /* Set text color of the text  */ 
+}
+
+.intro-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intro-text {
+  flex: 1;
+  text-align: left;
+}
+
+.intro-photo img {
+  border-radius: 20%; /* Make the photo round */
+  width: 100px; /* Adjust the width of the photo as needed */
+  height: 100px; /* Adjust the height of the photo as needed */
+}
+
+
+.projects {
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 10px; /* Add rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add box shadow for a subtle shadow effect */
+  background-color: #4de890; /* Set the background color to blue */
+  color: #000000; /* Set text color to white for better visibility on a blue background */
+
+}
+.skills {
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 10px; /* Add rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add box shadow for a subtle shadow effect */
+  background-color: #4de890; /* Set the background color to blue */
+  color: #000000; /* Set text color to white for better visibility on a blue background */
+}
+.contact {
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 10px; /* Add rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add box shadow for a subtle shadow effect */
+  background-color: #4de890; /* Set the background color to blue */
+  color: #000000; /* Set text color to white for better visibility on a blue background */
+  
+}
+
